@@ -1,5 +1,7 @@
 # Make a platormer level with Phaser Editor (source code)
 
+![banner](https://github.com/boniatillo-com/PhaserEditor_Tutorial_Platformer_1/raw/master/banner.png)
+
 This repo contains the assets and source code of the tutorial published in Zenva GameDev Academy [missing ref].
 
 In that tutorial we cover:
