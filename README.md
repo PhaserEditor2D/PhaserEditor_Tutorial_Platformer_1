@@ -4,6 +4,8 @@
 
 This repo contains the assets and source code of the tutorial published in Zenva GameDev Academy [missing ref].
 
+[Play the final demo](http://phasereditor.boniatillo.com/demos/zenva-tuto-platformer-1/final-demo/)
+
 In that tutorial we cover:
 
 - Project setup
