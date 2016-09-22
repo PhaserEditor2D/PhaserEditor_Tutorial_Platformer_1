@@ -1,2 +1,6 @@
-# PhaserEditor_Tutorial_Platformer_1
-Make a platformer game with Phaser Editor (tutorial source code)
+# Make a platormer level with Phaser Editor (source code)
+
+This repo contains the assets and source code of the tutorial published in Zenva GameDev Academy [missing ref].
+
+
+
