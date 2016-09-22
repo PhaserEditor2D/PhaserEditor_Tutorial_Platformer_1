@@ -1,0 +1,89 @@
+{
+  "settings": {
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 128,
+    "stepHeight": 93
+  },
+  "world": {
+    "type": "group",
+    "id": "8398e36e-f3f0-4bf8-afe0-7fbd32a1e65b",
+    "info": {
+      "editorName": "Scene1",
+      "editorClosed": false,
+      "physicsGroup": false,
+      "children": [
+        {
+          "type": "spritesheet",
+          "id": "d39c368b-a98d-45ac-bb34-fc9f864aeb32",
+          "asset-ref": {
+            "file": "WebContent/assets/assets-pack.json",
+            "section": "level",
+            "asset": "player",
+            "sprite": "0"
+          },
+          "info": {
+            "editorName": "player",
+            "x": 231,
+            "y": 101
+          }
+        },
+        {
+          "type": "tileSprite",
+          "id": "1ab14c0e-95cf-41f8-afe8-abd60db43412",
+          "asset-ref": {
+            "file": "WebContent/assets/assets-pack.json",
+            "section": "level",
+            "asset": "tiles",
+            "sprite": "14"
+          },
+          "info": {
+            "editorName": "_4",
+            "x": 127,
+            "y": 255,
+            "width": 384,
+            "height": 93,
+            "asset-ref": {
+              "file": "WebContent/assets/assets-pack.json",
+              "section": "level",
+              "asset": "tiles",
+              "sprite": "14"
+            }
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "853a1e3f-8f96-480a-ab26-83bef30e93aa",
+          "asset-ref": {
+            "file": "WebContent/assets/assets-pack.json",
+            "section": "level",
+            "asset": "tiles",
+            "sprite": "13"
+          },
+          "info": {
+            "editorName": "_3",
+            "x": -1,
+            "y": 255
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "a5a0a07b-c1aa-4d66-b893-a85d840f5c3f",
+          "asset-ref": {
+            "file": "WebContent/assets/assets-pack.json",
+            "section": "level",
+            "asset": "tiles",
+            "sprite": "15"
+          },
+          "info": {
+            "editorName": "_5",
+            "x": 511,
+            "y": 255
+          }
+        }
+      ]
+    }
+  }
+}
