@@ -14,7 +14,7 @@ In that tutorial we cover:
 
 In the Projects folder there are several projects that allow you to start an any section in the tutorial or see the expected results of a section.
 
-To test the projects you don't need Phaser Editor, you can start a local web server and open the `<project>/WebContent/index.html` file of each project. However, we recommend you to download Phaser Editor do the tasks step by step. To import the projects in Phaser Editor use the **Import > Existing projects into workspace wizard**, just select the **Copy contents** option.
+To test the projects you don't need Phaser Editor, you can start a local web server and open the `<project>/WebContent/index.html` file of each project. However, we recommend you to download Phaser Editor do the tasks step by step. To import the projects in Phaser Editor use the **Import > Existing projects into workspace wizard**, just select the **Copy projects into workspace** option.
 
 Enjoy it!
 
