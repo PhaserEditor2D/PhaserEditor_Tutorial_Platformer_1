@@ -2,7 +2,7 @@
 
 ![banner](https://github.com/boniatillo-com/PhaserEditor_Tutorial_Platformer_1/raw/master/banner.png)
 
-This repo contains the assets and source code of the tutorial published in Zenva GameDev Academy [missing ref].
+This repo contains the assets and source code of the [Make a Mario-Style platformer with the Phaser Editor][https://gamedevacademy.org/make-a-mario-style-platformer-with-the-phaser-editor/] tutorial published in Zenva GameDev Academy.
 
 [Play the final demo](http://phasereditor.boniatillo.com/demos/zenva-tuto-platformer-1/final-demo/)
 
