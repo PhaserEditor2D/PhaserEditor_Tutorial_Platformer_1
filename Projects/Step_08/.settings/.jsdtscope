@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry excluding="**/phaser.js|**/*.min.js|**/node_modules" kind="src" path=""/>
-	<classpathentry kind="con" path="phasereditor.project.core.ecma5scope"/>
-	<classpathentry kind="con" path="phasereditor.project.core.browserscope"/>
-	<classpathentry kind="con" path="phasereditor.project.core.globalScope"/>
-	<classpathentry kind="output" path=""/>
-</classpath>

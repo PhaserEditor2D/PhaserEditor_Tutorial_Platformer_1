@@ -1,0 +1,184 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 800,
+    "sceneHeight": 600,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 128,
+    "stepHeight": 93,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_before": "this.initScene();"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      0,
+      128,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "image",
+          "id": "2c787087-4ddc-4f10-92ab-95c27ad8e1f9",
+          "asset": "0",
+          "info": {
+            "editorName": "BG",
+            "x": -52,
+            "y": -108
+          }
+        },
+        {
+          "type": "tileSprite",
+          "id": "3d013c19-4318-49c1-b760-b4a007186eff",
+          "asset": "1",
+          "info": {
+            "editorName": "_4",
+            "x": 256,
+            "y": 279,
+            "width": 384,
+            "height": 93
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "907699c7-be2a-4587-9b84-1784fa3c4d25",
+          "asset": "2",
+          "info": {
+            "editorName": "_5",
+            "x": 640,
+            "y": 279
+          }
+        },
+        {
+          "type": "atlas-sprite",
+          "id": "fbf87279-0b41-42cc-87f1-959b13d4d615",
+          "asset": "3",
+          "info": {
+            "editorName": "_3",
+            "x": 128,
+            "y": 279
+          }
+        },
+        {
+          "type": "spritesheet",
+          "id": "27962117-739c-48f6-a28f-a06d2c8480a8",
+          "asset": "4",
+          "info": {
+            "editorName": "player",
+            "editorPublic": true,
+            "x": 320,
+            "y": 71,
+            "body": {
+              "type": "ARCADE_RECT",
+              "offsetX": 46.800018310546875,
+              "offsetY": 109.2168960571289,
+              "width": 86.39996337890625,
+              "height": 85.96431732177734
+            }
+          }
+        },
+        {
+          "type": "group",
+          "id": "24f1ec1d-82a0-4bed-b443-59ce86e62d7a",
+          "info": {
+            "editorName": "collisionLayer",
+            "editorPublic": true,
+            "physicsGroup": true,
+            "setAll": [
+              {
+                "key": "body.immovable",
+                "value": "true"
+              },
+              {
+                "key": "body.allowGravity",
+                "value": "false"
+              },
+              {
+                "key": "renderable",
+                "value": "false"
+              }
+            ],
+            "children": [{
+              "type": "tileSprite",
+              "id": "eedc9c8c-17fc-4254-b063-50162db41281",
+              "asset": "5",
+              "info": {
+                "editorName": "physics",
+                "x": 135,
+                "y": 283,
+                "width": 630.8999938964844,
+                "height": 30.088897705078125
+              }
+            }]
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "BG"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "14"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "15"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "13"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "player",
+      "sprite": "0"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "physics"
+    }
+  },
+  "prefab-table": {}
+}

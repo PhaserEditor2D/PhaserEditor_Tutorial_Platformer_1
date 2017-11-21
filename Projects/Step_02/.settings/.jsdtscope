@@ -3,5 +3,6 @@
 	<classpathentry kind="con" path="phasereditor.project.core.ecma5scope"/>
 	<classpathentry kind="con" path="phasereditor.project.core.browserscope"/>
 	<classpathentry kind="con" path="phasereditor.project.core.globalScope"/>
+	<classpathentry excluding="**/lib|**/phaser.js|**/*.min.js|**/node_modules" kind="src" path=""/>
 	<classpathentry kind="output" path=""/>
 </classpath>
